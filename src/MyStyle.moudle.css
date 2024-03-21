@@ -1,0 +1,229 @@
+ .bar{
+    width: 115%;
+    color:white
+}
+.row-container {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    width: 1120px;
+    overflow: hidden;
+  }
+  .card {
+    flex: 0 0 auto; /* Allow the cards to shrink */
+    margin-right: 10px; /* Add some spacing between cards */
+    
+  }
+  .title-products{
+    width: 1132px;
+    color:white
+  }
+  .home::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("https://png.pngtree.com/background/20230413/original/pngtree-business-e-shopping-picture-image_2422998.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .products::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("https://img.lovepik.com/photo/50067/8117.jpg_wh860.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .welcome::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("https://img.freepik.com/premium-photo/blue-abstract-advertising-hd-8k-wallpaper-stock-photographic-image_890746-40903.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699228800&semt=ais");
+    background-size: cover;
+    background-position: center;
+  }
+  .login::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("https://img.freepik.com/premium-photo/blue-abstract-advertising-hd-8k-wallpaper-stock-photographic-image_890746-40903.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699228800&semt=ais");
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+  }
+  .purchases::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/06/Featured-Image.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+  }
+  .customers::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("https://wallpapercave.com/wp/wp10380502.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .my-menu::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("https://www.loginradius.com/blog/static/d21b48eedb3b50850194fc28e4479eac/d3746/dig-identity-retail.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .my-cart{
+    max-height: 550px;
+    overflow-y: auto;
+    background-color: white ;
+  }
+  .animated-button {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .animated-button.hovered {
+    transform: scale(1.1);
+  }
+
+  .animated-button-slide-enter {
+    transform: translateY(100vh); /* Set the initial position, off the screen */
+  }
+  
+  .animated-button-slide-enter-active {
+    transform: translateY(0);
+    transition: transform 500ms ease-in-out;
+  }
+  
+  .animated-button-slide-exit {
+    transform: translateY(0);
+  }
+  
+  .animated-button-slide-exit-active {
+    transform: translateY(100vh); /* Set the position to move off the screen when exiting */
+    transition: transform 500ms ease-in-out;
+  }
+  
+  .animated-button-slide.hovered {
+    transform: translateY(-10px); /* Adjust the value based on your preference */
+  }
+  .heading-1{
+    font-weight:bold;
+    color: #333;
+	-webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px #282828;
+  }
+  .heading-2{
+    font-weight:bold;
+    color: white;
+	-webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px #282828;
+  }
+
+  .contact-us::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("https://media.istockphoto.com/id/1223914421/vector/abstract-blue-wave-background.jpg?s=612x612&w=0&k=20&c=W8IAWjODYdStfbZXxqdG-ovDG2rWjRehnlrQCw1eDn0=");
+    background-size: cover;
+    background-position: center;
+  }
+  .about-us::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSm0jjrg44XA2hbk0AWkiHQdL6vucApKMkKw&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-item.active {
+    background-color: #e0f7fa; /* Light blue background for active button */
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .message.success {
+    background-color: #d0e9c6; /* Light green background for success message */
+  }
+  
+  .message.info {
+    background-color: #cfe0fc; /* Light purple background for information message */
+  }
+
+  .contact-item {
+    position: relative;
+  }
+  
+  .message.info {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    shape-outside:polygon(triangle);
+    background-color: #cfe0fc; /* Light purple background for information message */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
