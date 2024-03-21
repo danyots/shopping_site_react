@@ -1,8 +1,7 @@
-# React + Vite
+Online Shopping Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description:
+Our Online Shopping Site offers a user-friendly platform for browsing and purchasing a wide range of products. With features like user authentication, product catalog, shopping cart, and checkout process, shopping becomes effortless.
 
-Currently, two official plugins are available:
+For a live demonstration of the Online Shopping Site project, please visit [here](https://main--tsirkinet-online.netlify.app/home/products).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
