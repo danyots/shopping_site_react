@@ -11,63 +11,31 @@ export default function AppReducer(store={
                 private:{
                     firstName:"Daniel",
                     lastName:"Tsirkin",
-                    phoneNumber:"058-6145677",
-                    email:"dantsirkin@gmail.com",
+                    phoneNumber:"058-4567890",
+                    email:"email@gmail.com",
                     gender:"Male",
-                    birthday:"2003-09-13",
+                    birthday:"2000-01-01",
                 },
                 payment:{
                     cardNumber:"1234 5678 9101 1121",
                     expiryMonth:"11",
-                    expiryYear:"2027",
+                    expiryYear:"2025",
                     cvv:"123"
                 },
                 delivary:{
                     city:"Jerusalem",
-                    street:"Zeev Falk",
+                    street:"King goerge",
                     houseNumber:5,
                     isPrivate:false,
                     entry:0,
-                    floor:-1,
-                    apartment:3
-                }
-            },
-            
-            purchases:[]
-        },
-        {
-            displayed:false,
-            userName:"daniel@",
-            password:"789101112",
-            mycart:[],
-            details:{
-                private:{
-                    firstName:"David",
-                    lastName:"Tsirkin",
-                    phoneNumber:"058-6145688",
-                    email:"davidtsirkin@gmail.com",
-                    gender:"Female",
-                    birthday:"2013-06-23",
-                },
-                payment:{
-                    cardNumber:"1234 5678 9101 8888",
-                    expiryMonth:"12",
-                    expiryYear:"2029",
-                    cvv:"123"
-                },
-                delivary:{
-                    city:"Jerusalem",
-                    street:"Zeev Falk",
-                    houseNumber:5,
-                    isPrivate:true,
-                    entry:0,
-                    floor:-1,
+                    floor:1,
                     apartment:3
                 }
             },
             
             purchases:[]
         }
+       
     ]
     ,products:{
     vegetables: [
